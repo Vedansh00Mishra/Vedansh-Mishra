@@ -1,0 +1,169 @@
+html{
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+}
+#imglogo{
+    display: flex;
+}
+img{
+    height: 145px;
+    float: left;
+    display: flex;
+}
+header::before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    background: url(new\ png\ h.png) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+#navbar{
+    background-color: rgba(0, 0, 0, 0.592);
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+#navigation{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#navigation li{
+    margin: 35px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+}
+#Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+.h-primary{
+    font-size: 55px;
+    padding: 12px;
+}
+#services{
+    background-color: aliceblue;
+    margin-top: 309px;
+    margin-bottom: -46px;
+}
+.boxes{
+    display: flex;
+}
+#box1{
+    
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#box2{
+    
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#box3{
+    
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#box1{
+    background-color: rgb(223, 212, 212);
+    color: rgb(62, 52, 39);
+
+}
+#box2{
+    background-color: rgb(223, 212, 212);
+    color: rgb(62, 52, 39);
+
+}
+#box3{
+    background-color: rgb(223, 212, 212);
+    color: rgb(62, 52, 39);
+    
+}
+.center{
+    text-align: center;
+}
+a:hover{
+    color: rgb(160, 132, 95);
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 10px;
+}
+#Contact{
+    position: relative;
+    color: aliceblue;
+}
+
+
+#Contact::before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    background: url(contact.jpg) no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+footer{
+    color: aliceblue;
+    padding: 9px 20px;
+}
+
+
+
+#ContactBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#ContactBox input,
+#ContactBox textarea{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+
+#ContactBox form{
+    width: 40%;
+}
+#ContactBox label{
+    font-size: 1.3rem;
+}

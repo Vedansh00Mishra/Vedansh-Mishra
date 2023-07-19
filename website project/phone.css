@@ -1,0 +1,28 @@
+#navbar{
+   flex-direction: column;
+}
+
+
+
+/*Home Section*/
+#Home{
+
+
+}  
+
+/*Services section*/
+#services{
+
+   
+}
+#services .boxes{
+   flex-direction: column;
+}
+/*Contact Us Section*/
+#Contact{
+
+}
+
+footer{
+
+}
